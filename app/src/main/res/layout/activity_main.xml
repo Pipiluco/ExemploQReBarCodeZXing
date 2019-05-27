@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+tools:context=".MainActivity">
+
+
+<TextView
+    android:id="@+id/tvNome"
+    android:layout_width="match_parent"
+    android:textAppearance="@style/TextAppearance.AppCompat.Large"
+    android:layout_height="wrap_content"
+    android:text="Nome" />
+
+<TextView
+    android:id="@+id/tvEndereco"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:textAppearance="@style/TextAppearance.AppCompat.Large"
+    android:layout_below="@+id/tvNome"
+    android:text="Endereço" />
+
+<Button
+    android:id="@+id/btnScan"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_alignParentBottom="true"
+    android:text="Scan" />
+
+</RelativeLayout>
